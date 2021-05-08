@@ -3,11 +3,20 @@ import java.util.Scanner;
 public class Session5 {
 
     public static void main(String[] args) {
-        Scanner myscanner = new Scanner( System.in );
-        // if you are reading string value
-        System.out.println("Enter a int value ");
-        System.out.println(myscanner.nextInt());
+        // h1 -- is called object reference
+//        Human h1 = new Human("Anila", 20);
+//        Human h2 = new Human("Akash",30);
+//
+//
+//        h1.printDetails();
+//        h2.printDetails();
 
+        Box b1 = new Box(5,5,5);
+        int volume = b1.getVolume();
+        System.out.println(volume);
+        Box b2 = new Box(10,10,10);
+
+        System.out.println( b2.getVolume()  );
 
     }
 
@@ -32,4 +41,6 @@ public class Session5 {
         "Hello "+ name+ ",
         printGreeting( "Atin" , 2) ==>  Namaste Atin
      */
+
+
 }
