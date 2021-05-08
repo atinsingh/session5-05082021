@@ -76,3 +76,43 @@ If you don't write constructor, java compiler will
 add default one for you.
 But if you write contructor, compiler will not provide any 
 for you.
+
+
+## Task 2 
+
+Write a class call Student with following properties; <br>
+ studentId  // int 
+ name// String
+ program// String 
+
+<br>
+write a method, which will print student details
+<br>
+public void printDetails() {//logic here}}
+
+```java
+public class Student {
+    // write variable here
+    
+    public Student(int studentId, String name, String program){
+        // complete this
+    }
+   
+    public void printDetails(){
+        //complete this
+    }
+    // this will allow to change the program
+    public void changeProgram(String newProgram) {
+        //compelte
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        //Create 3 different student object 
+        //print detals for all of them
+        // change the program for 1st student 
+        // print details again
+    }
+}
+```
